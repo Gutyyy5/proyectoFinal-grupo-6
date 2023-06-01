@@ -1,0 +1,38 @@
+body{
+    margin:  0;
+    min-height: 100vh;
+    background-image: url(img/umg.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body::before{
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: rgb(9,3,102);
+    background: linear-gradient(90deg, rgba(9,3,102,0.9081757703081232) 0%, rgba(9,9,121,0.68968837535014) 40%, rgba(255,0,0,1) 75%);
+  
+    opacity: 0.5;
+}
+
+h1{
+    color: black;
+    text-align: center; 
+    font-size: 350%;
+}
+
+a{ 
+    font-size: 250%;
+    color: gray;
+    outline: none;
+    text-decoration: none;
+    
+    }
+    

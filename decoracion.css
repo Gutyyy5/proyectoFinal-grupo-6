@@ -1,0 +1,99 @@
+h1{
+    color: royalblue;
+    }
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+h3{
+    color: rgb(186, 33, 6);
+}
+
+.container{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+.regreso{
+    display: block;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-color: rgb(127, 206, 255);
+    border-radius: 10px;
+    padding: 15px 30px;
+    color: floralwhite;
+    text-decoration: none;
+}
+
+.regreso:hover{
+    background-color: transparent;
+    border: 2px solid rgb(127, 206, 255);
+    color: rgb(127, 206, 255);
+}
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    height: 70px;
+    background-color: #31475e;
+    justify-content: space-between;
+    color: aliceblue;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    
+
+
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    height: 70px;
+    margin-right: 20px;
+}
+
+.main{
+    padding-top: 10rem;
+}
+
+nav{
+    background-color: rgb(52, 52,52);
+    position: fixed;
+    height: 100%;
+    width: 15%;
+    left: 0;
+    top: 12.5%;   
+}
+
+
+#menu a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.separator{
+    height: 1px;
+    border-bottom: solid black 1px ;
+    margin: 15px 0;
+
+}
+
+#card {
+    display: flex;
+    height: 80px;
+    margin-right: 70px;
+  
+}
+
+
+
+
