@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../decoracion.css">
+    <title>Relacion entre tablas</title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+        
+      <img src="../logo de la U/logo4.png" alt="logo de la pagina">
+      <h2 class="N.pagina">Universidad Mariano Gálvez de Guatemala</h2>
+  </div>
+  
+</header>
+
+<nav>
+  <br>
+  <br>
+  <div id="menu">
+      <a href="../indexprincipal.html">INICIO</a>
+  </div>
+
+  <div class="separator"></div>
+
+  <div id="menu">
+      <a href="index.html">Introduccion a los sistemas de computo</a>
+  </div>
+
+  <div class="separator"></div>
+
+  <div id="menu">
+      <a href="../metodologia.html">Metodologio de la investigacion</a>
+  </div>
+
+  <div class="separator"></div>
+
+  <div id="menu">
+      <a href="../logica.html">Logica de sistemas</a>
+  </div>
+
+  <div class="separator"></div>
+
+  <div id="menu">
+      <a href="../DesarroloH/index.html">Desarrollo humano</a>
+  </div>
+
+  <div class="separator"></div>
+  
+</nav>
+
+<main class="main">
+  <div class="container">
+    <h1 class="text-center">Relacion entre tablas</h1>
+
+   
+    <p><a href="index.html" class="regreso">regresar al index...</a></p> 
+    <br>
+    <br>
+    <h3>Relación uno a uno</h3>
+
+    <p>Una registro de una Entidad A se relaciona únicamente
+      con un registro de una tabla B y viceversa. Este tipo de
+      relación no es común en el mundo de las bases de datos.
+      Ejemplos
+      • Supongamos que tenemos una tabla llamada vehículo
+      y otra llamada Matriculas, la relación que se haría
+      entre ambas tablas sería la siguiente: un vehículo solo
+      puede estar asociado a una sola matricula y viceversa.
+      
+      • Supongamos que almacenamos la información de un
+      empleado en una tabla y en otra tabla guardamos
+      los currículum vitae de los empleados. La relación en
+      este caso es de uno a uno ya que un empleado puede
+      tener solo un currículum vitae y viceversa.</p>
+
+      <h3>Relación Uno a Muchos</h3>
+      <p>Una registro de una Entidad A se relaciona con varios
+        registros de una tabla B. Ejemplos
+        • Un Departamento tiene varios municipios, y un
+        municipio solo pertenece a un departamento
+        
+        • Un estudiante Municipio tiene muchos ciudadanos,
+        pero un ciudadano solo puede pertenecer a un
+        municipio.</p>
+
+        <h3>Relación Muchos a Muchos</h3>
+        <p>Cuando un registro de una entidad A puede estar relacionado
+          con más de un registro de la entidad B y viceversa. En este caso
+          las dos tablas no pueden estar relacionadas directamente, se
+          tiene que añadir una tabla entre las dos que incluya los pares de
+          valores relacionados entre sí. Ejemplo
+          • Un estudiantes puede asignarse varios cursos, pero un
+          curso también puede tener varios estudiantes asignados.
+          
+          • Sin embargo esto no puede ser reflejado de esta forma si
+          no que es necesario añadir una nueva tabla para poder
+          registrar la información en una Base de Datos</p>
+
+    <div class="" style="">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/tab1.png " width="500" class="img-fluid rounded-start" alt="...">
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="" style="">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/tab2.jpg" width="500" class="img-fluid rounded-start" alt="...">
+          </div>
+        </div>
+      </div>
+      <br>
+
+      <div class="" style="">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/tab3.png " width="500" class="img-fluid rounded-start" alt="...">
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+  </div>
+    
+    
+</body>
+</html>
